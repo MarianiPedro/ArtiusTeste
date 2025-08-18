@@ -10,8 +10,15 @@ public class ProdutoController : ControllerBase
     [HttpPost] // POST 
     public async Task<ActionResult<ProdutoReadDto>> Create([FromBody] ProdutoCreateDto dto)
     {
-        try { var created = await _service.CreateAsync(dto); return CreatedAtAction(nameof(GetAll), new { id = created.Id }, created); }
-        catch (ArgumentException ex) { return BadRequest(new { error = ex.Message }); }
+        try
+        {
+            var created = await _service.CreateAsync(dto);
+            return CreatedAtAction(nameof(GetAll), new { id = created.Id }, created);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new { error = ex.Message });
+        }
     }
 
     [HttpGet] // GET 

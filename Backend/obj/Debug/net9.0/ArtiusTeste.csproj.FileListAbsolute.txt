@@ -92,3 +92,4 @@ D:\PEDRO\Projetos\ArtiusTeste\Backend\obj\Debug\net9.0\refint\ArtiusTeste.dll
 D:\PEDRO\Projetos\ArtiusTeste\Backend\obj\Debug\net9.0\ArtiusTeste.pdb
 D:\PEDRO\Projetos\ArtiusTeste\Backend\obj\Debug\net9.0\ArtiusTeste.genruntimeconfig.cache
 D:\PEDRO\Projetos\ArtiusTeste\Backend\obj\Debug\net9.0\ref\ArtiusTeste.dll
+D:\PEDRO\Projetos\ArtiusTeste\Backend\obj\Debug\net9.0\ArtiusTeste.sourcelink.json

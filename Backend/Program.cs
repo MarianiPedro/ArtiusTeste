@@ -15,7 +15,7 @@ builder.Services.AddScoped<IProdutoService, ProdutoService>();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend",
+    options.AddPolicy("Frontend",
         policy => policy.AllowAnyOrigin()
                         .AllowAnyMethod()
                         .AllowAnyHeader());
